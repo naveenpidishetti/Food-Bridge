@@ -1,42 +1,51 @@
-# 🍲 Food Bridge — Connecting Surplus Food with Communities
+# 🌉 Food Bridge — Connecting Surplus Food with People in Need
 
-> **A real-time surplus food rescue & redistribution platform for Greater Hyderabad & Telangana connecting Food Donors, Verified Receivers / Shelters, and Delivery Partners.**
+> **A real-time zero-waste surplus food rescue & redistribution platform for Greater Hyderabad & Telangana connecting Food Donors, Verified Receivers / Shelters, and Authenticated Delivery Partners.**
 
 [![React](https://img.shields.io/badge/React-18.3.1-61DAFB?style=flat&logo=react&logoColor=black)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-5.4.10-646CFF?style=flat&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Leaflet](https://img.shields.io/badge/Leaflet-1.9.4-199900?style=flat&logo=leaflet&logoColor=white)](https://leafletjs.com/)
-[![Recharts](https://img.shields.io/badge/Recharts-2.15.3-22B5BF?style=flat)](https://recharts.org/)
+[![Tailored Colors](https://img.shields.io/badge/Theme-White%20%7C%20Green%20%7C%20Blue-059669?style=flat)](https://github.com/naveenpidishetti/Food-Bridge)
 [![License](https://img.shields.io/badge/License-MIT-emerald.svg)](LICENSE)
 
 ---
 
 ## 🌟 Overview
 
-**Food Bridge** is an end-to-end food rescue ecosystem operating in **Hyderabad, Telangana**. It enables restaurants, caterers, bakeries, and households to list surplus edible food with complete donor pickup details. Verified shelters and orphanages in Hyderabad can claim and pin orders with designated drop-off points, while delivery partners navigate via real-time GPS tracking.
+**Food Bridge** is a comprehensive mission-driven application built for **Hyderabad, Telangana**. It bridges the gap between surplus food generators (restaurants, banquets, households, catering companies) and local charity shelters or orphanages in need.
 
 ---
 
-## ✨ Key Workflows & Features
+## ✨ Key Features & Innovations
 
-### 1. 👥 Dedicated User Portals & Delivery Partner Console
-- **👤 Community User (Donor & Receiver Access)**:
-  - **🍲 Donor Hub**: 
-    - Full donor profile display (Name, Cell No, House / Bldg Name, Street, Pin Code).
-    - Breakdown of donated food types (Biryani, curries, bakery, fruits).
-    - Mandatory location confirmation during donation creation.
-  - **🏠 Receiver Hub**:
-    - Real-time catalog of available food from donors in Hyderabad.
-    - **Order Locking & Pinning**: Once a receiver claims food, the order is locked and pinned to that shelter, making it unavailable to other receivers.
-    - Set specific drop-off details (Receiver Name, Cell No, Specific Dropping Point Landmark, House/Shelter Name, Street, Pin Code).
-- **🛵 Delivery Partner Console**:
-  - Accept pickup tasks across Hyderabad (Banjara Hills, Jubilee Hills, Madhapur, Hitec City, Secunderabad).
-  - Step-by-step dispatch workflow (`Claimed` ➔ `Picked Up` ➔ `In Transit` ➔ `Delivered`).
-  - Access donor pickup contacts and receiver drop-off contacts.
+### 1. 🤖 AI Food Quality & Freshness Inspector
+- **Photo Upload**: Donors upload a photo of the prepared surplus food.
+- **AI Quality Scoring (0 - 100%)**: Evaluates visual freshness, packaging hygiene, thermal holding integrity, and microbial risk.
+- **Strict Disqualification Barrier**: If the calculated quality score is **below 50%** (or flagged as spoiled/expired), the donation is **strictly rejected** and cannot be submitted.
 
-### 2. 🗺️ Hyderabad Real-Time Map & Route Dispatch
-- Leaflet map centered on **Hyderabad, Telangana** (`17.4150, 78.4350`).
-- Displays live GPS routes between donor pickup origins and shelter drop-off points.
-- Animated live courier vehicle tracking.
+### 2. 🤖 AI Help Assistant & 24/7 Customer Service Helpline
+- **Smart AI Chatbot**: Instant assistance on donation guidelines, receiver claims, delivery steps, and food safety standards.
+- **Customer Helpline Desk**: Direct access to the Telangana 24/7 helpline (`+91 040-2345-6789`) and quick ticket resolution.
+
+### 3. ⭐ Community Ratings & Reviews
+- Interactive 5-star rating system where donors, receivers, and volunteers share recommendations and feedback on the platform.
+
+### 4. 🔐 Strict Authentication & Delivery Partner Face Biometrics
+- **Gated Access**: Dashboards and donation actions are secured behind authentication.
+- **Biometric Face Verification & Unique Courier ID**: When delivery partners sign in, an integrated biometric scan and government/badge identity verification (`TS-HYD-DL-XXXXX`) are required before unlocking the dispatch console.
+
+### 5. 🗺️ Hyderabad Real-Time Map & Active GPS Radar
+- Centered on **Hyderabad, Telangana** (`17.4150, 78.4350`).
+- **3-Point GPS Route Tracking**: Delivery Partner ➔ Donor Pickup Location ➔ Receiver Drop Point.
+- Collapsible side map panel with fullscreen and minimize modes.
+- **1-Active-Order Rule**: Delivery partners can only handle 1 route at a time to guarantee prompt food delivery.
+
+### 6. 🎨 Modern White, Green & Blue Interface
+- **Clean White Background** (`#FFFFFF` / `#F8FAFC`).
+- **Deep Black Typography** (`#0A0F1D`) for maximum contrast and readability.
+- **Green Accents** (`#059669`) for Community Users (Donors & Receivers).
+- **Blue Accents** (`#2563EB`) for Delivery Partners.
+- **Bridge Brand Logo** symbolizing care, nourishment, and connection.
 
 ---
 
@@ -44,8 +53,8 @@
 
 | Account Type | Email | Password | Details / Location |
 | :--- | :--- | :--- | :--- |
-| **👤 User (Donor & Receiver)** | `user@foodbridge.org` | `FoodBridge#2026` | Ramesh Rao (Banjara Hills, Rd No 10, Pin: 500034) |
-| **👤 Receiver Shelter** | `receiver@foodbridge.org` | `FoodBridge#2026` | Anitha Reddy (Sneha Orphanage, Madhapur, Pin: 500081) |
+| **👤 Community User (Donor & Receiver)** | `user@foodbridge.org` | `FoodBridge#2026` | Ramesh Rao (Banjara Hills, Rd No 10, Pin: 500034) |
+| **🏠 Receiver Shelter** | `receiver@foodbridge.org` | `FoodBridge#2026` | Anitha Reddy (Sneha Orphanage, Madhapur, Pin: 500081) |
 | **🛵 Delivery Partner** | `delivery@foodbridge.org` | `FoodBridge#2026` | Kiran Kumar (Courier Partner, Hyderabad) |
 
 ---
@@ -53,6 +62,10 @@
 ## 🚀 Getting Started
 
 ```bash
+# Clone the repository
+git clone https://github.com/naveenpidishetti/Food-Bridge.git
+cd Food-Bridge
+
 # Install dependencies
 npm install
 
